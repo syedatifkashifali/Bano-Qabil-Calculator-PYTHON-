@@ -24,13 +24,12 @@ num2 = int(input("Enter number 2 : "))
 #performing calculations based on input
 if operator == 1:
     result = num1 + num2
-if operator == 2:
+elif operator == 2:
     result = num1 - num2
-if operator == 3:
+elif operator == 3:
     result = num1 * num2
-if operator == 4:
+elif operator == 4:
     result = num1 / num2
     
 #displaying output
 print("Your answere is : ",result)
-
